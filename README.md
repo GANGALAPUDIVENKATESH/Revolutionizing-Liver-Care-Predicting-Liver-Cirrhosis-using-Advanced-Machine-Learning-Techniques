@@ -1,6 +1,5 @@
 **🧬 Revolutionizing Liver Care: Predicting Liver Cirrhosis using Advanced Machine Learning Techniques**
 
-
 ________________________________________
 🔹 Project Overview
 Liver cirrhosis is a chronic condition that can progress silently until it becomes life-threatening. Early prediction and timely medical intervention can save lives.
