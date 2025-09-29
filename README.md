@@ -1,6 +1,6 @@
 **🧬 Revolutionizing Liver Care: Predicting Liver Cirrhosis using Advanced Machine Learning Techniques**
 ________________________________________
-🔹** Project Overview**
+🔹 Project Overview
 Liver cirrhosis is a chronic condition that can progress silently until it becomes life-threatening. Early prediction and timely medical intervention can save lives.
 This project leverages advanced machine learning techniques to detect and predict the risk of liver cirrhosis based on structured clinical data.
 By combining data preprocessing, ensemble learning (Random Forests), and a user-friendly Flask web interface, this system provides fast, data-driven predictions to assist healthcare professionals.
@@ -10,7 +10,7 @@ By combining data preprocessing, ensemble learning (Random Forests), and a user-
 •	Cost-effective screening model using available clinical data
 •	Scalable prototype for real-world healthcare integration
 ________________________________________
-📂** Project Structure**
+📂 Project Structure
 📦 Revolutionizing-Liver-Care-Predicting-Liver-Cirrhosis
  ┣ 📂 notebooks/        # Jupyter notebooks for preprocessing, model training, evaluation
  ┣ 📂 models/           # Trained model (rf_acc_68.pkl) and normalizer.pkl
@@ -19,7 +19,7 @@ ________________________________________
  ┣ 📜 requirements.txt  # Python dependencies
  ┣ 📜 README.md         # Project documentation
 ________________________________________
-⚙️** **Features**
+⚙️ Features
 •	🧠 Random Forest Classifier optimized for cirrhosis prediction
 •	💻 Flask Web Application with simple & responsive UI
 •	📊 Data Normalization with pre-saved normalizer.pkl
@@ -27,7 +27,7 @@ ________________________________________
 •	🔄 Extensible Design: Supports integration of new ML models
 •	🎥 Demo Video showing the full pipeline and web interface
 ________________________________________
-🧩** Dataset**
+🧩 Dataset
 The project uses structured clinical data, including:
 •	Demographics: Age, Gender
 •	Lab Tests: Total Bilirubin, Direct Bilirubin, Alkaline Phosphatase
@@ -40,7 +40,7 @@ The project uses structured clinical data, including:
 •	Feature scaling using normalizer.pkl
 •	Train-test split for model validation
 ________________________________________
-📊** Model Details**
+📊 Model Details
 🔹 Random Forest Classifier (Final Model)
 •	Ensemble of decision trees → reduces overfitting
 •	Optimized with GridSearchCV
