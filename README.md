@@ -4,8 +4,11 @@
 ________________________________________
 🔹 Project Overview
 Liver cirrhosis is a chronic condition that can progress silently until it becomes life-threatening. Early prediction and timely medical intervention can save lives.
+
 This project leverages advanced machine learning techniques to detect and predict the risk of liver cirrhosis based on structured clinical data.
+
 By combining data preprocessing, ensemble learning (Random Forests), and a user-friendly Flask web interface, this system provides fast, data-driven predictions to assist healthcare professionals.
+_______________________________________
 ✨ Key Benefits:
 •	Early detection of liver cirrhosis risk
 •	Decision-support tool for clinicians
@@ -117,8 +120,4 @@ ________________________________________
 •	AI in Healthcare research papers
 •	Scikit-learn & Flask documentation
 •	Open-source contributors
-________________________________________
-⭐ If you find this project useful, don’t forget to star the repo!
-🔗 GitHub Link: Revolutionizing Liver Care – GitHub Project
-
 
