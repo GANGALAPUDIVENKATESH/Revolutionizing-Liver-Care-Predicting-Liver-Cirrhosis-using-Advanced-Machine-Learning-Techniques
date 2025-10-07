@@ -2,19 +2,22 @@
 
 ________________________________________
 🔹 **Project** **Overview**
+
 Liver cirrhosis is a chronic condition that can progress silently until it becomes life-threatening. Early prediction and timely medical intervention can save lives.
 
 This project leverages advanced machine learning techniques to detect and predict the risk of liver cirrhosis based on structured clinical data.
 
 By combining data preprocessing, ensemble learning (Random Forests), and a user-friendly Flask web interface, this system provides fast, data-driven predictions to assist healthcare professionals.
 _______________________________________
-✨ Key Benefits:
+✨ **Key Benefits**:
+
 •	Early detection of liver cirrhosis risk
 •	Decision-support tool for clinicians
 •	Cost-effective screening model using available clinical data
 •	Scalable prototype for real-world healthcare integration
 ________________________________________
 ⚙️ **Features**
+
 •	🧠 Random Forest Classifier optimized for cirrhosis prediction
 •	💻 Flask Web Application with simple & responsive UI
 •	📊 Data Normalization with pre-saved normalizer.pkl
@@ -23,6 +26,7 @@ ________________________________________
 •	🎥 Demo Video showing the full pipeline and web interface
 ________________________________________
 🧩 **Dataset**
+
 The project uses structured clinical data, including:
 •	Demographics: Age, Gender
 •	Lab Tests: Total Bilirubin, Direct Bilirubin, Alkaline Phosphatase
@@ -36,6 +40,7 @@ The project uses structured clinical data, including:
 •	Train-test split for model validation
 ________________________________________
 📊 **Model Details**
+
 🔹 Random Forest Classifier (Final Model)
 •	Ensemble of decision trees → reduces overfitting
 •	Optimized with GridSearchCV
@@ -46,6 +51,7 @@ ________________________________________
 •	Ensures consistent input ranges for predictions
 ________________________________________
 🛠 **Workflow**
+
 1.	Data Collection & Cleaning
 2.	Feature Engineering & Normalization
 3.	Model Training (Random Forest, Logistic Regression, Decision Tree tested)
@@ -54,6 +60,7 @@ ________________________________________
 6.	Real-time Prediction Interface for clinicians/patients
 ________________________________________
 📝 **Installation**
+
 Clone the repository:
 git clone https://github.com/GANGALAPUDIVENKATESH/Revolutionizing-Liver-Care-Predicting-Liver-Cirrhosis-using-Advanced-Machine-Learning-Techniques
 cd Revolutionizing-Liver-Care-Predicting-Liver-Cirrhosis-using-Advanced-Machine-Learning-Techniques
@@ -63,12 +70,14 @@ Run the Flask app:
 python app.py
 ________________________________________
 🧩 **Usage**
+
 1.	Open browser and go to: http://127.0.0.1:5000/
 2.	Enter patient data into the input form
 3.	Click Predict to get the cirrhosis prediction result
 4.	View metrics for model performance (confusion matrix, accuracy)
 ________________________________________
 🚀 **Technologies Used**
+
 •	Python 🐍 – Core programming
 •	Scikit-learn 📚 – Machine Learning models & preprocessing
 •	Pandas & NumPy 🧮 – Data preprocessing and manipulation
@@ -88,12 +97,14 @@ o	Feature Importance (bilirubin, albumin/globulin ratio highly impactful)
 o	Ensures robustness & reduces overfitting
 ________________________________________
 💻 **Deployment**
+
 •	Flask Web Application for interactive predictions
 •	Input patient features via web UI
 •	Outputs prediction result + confidence score
 •	Ready for integration into larger healthcare platforms
 ________________________________________
 🤝 **Contributing**
+
 1.	Fork the repository
 2.	Create a branch:
 3.	git checkout -b feature-name
@@ -104,9 +115,11 @@ ________________________________________
 8.	Open a Pull Request
 ________________________________________
 📄 **License**
+
 This project is licensed under the MIT License.
 ________________________________________
 💡 **Acknowledgements**
+
 •	AI in Healthcare research papers
 •	Scikit-learn & Flask documentation
 •	Open-source contributors
