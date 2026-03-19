@@ -87,7 +87,7 @@ ________________________________________
 ________________________________________
 📈 **Model Evaluation**
 •	Metrics:
-o	Accuracy → ~68%
+o	Accuracy →
 o	Precision, Recall, F1-Score → Balanced evaluation for healthcare context
 •	Visualizations:
 o	Confusion Matrix
