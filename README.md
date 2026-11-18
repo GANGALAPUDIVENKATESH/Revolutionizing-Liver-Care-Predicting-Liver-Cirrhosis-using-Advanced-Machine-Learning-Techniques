@@ -19,10 +19,15 @@ ________________________________________
 ⚙️ **Features**
 
 •	🧠 Random Forest Classifier optimized for cirrhosis prediction
+
 •	💻 Flask Web Application with simple & responsive UI
+
 •	📊 Data Normalization with pre-saved normalizer.pkl
+
 •	📈 Performance Metrics: Accuracy, Precision, Recall, F1-score
+
 •	🔄 Extensible Design: Supports integration of new ML models
+
 •	🎥 Demo Video showing the full pipeline and web interface
 ________________________________________
 🧩 **Dataset**
@@ -86,6 +91,7 @@ ________________________________________
 •	Jupyter Notebook 📓 – Model training & evaluation
 ________________________________________
 📈 **Model Evaluation**
+
 •	Metrics:
 o	Accuracy →
 o	Precision, Recall, F1-Score → Balanced evaluation for healthcare context
